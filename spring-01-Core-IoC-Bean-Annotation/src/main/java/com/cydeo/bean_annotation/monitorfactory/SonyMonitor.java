@@ -1,6 +1,5 @@
-package com.cydeo.loosely_coupled.monitorfactory;
+package com.cydeo.bean_annotation.monitorfactory;
 
-import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -9,6 +8,7 @@ import lombok.Setter;
 public class SonyMonitor extends Monitor{
 
     public SonyMonitor(String model, String manufacturer, int size) {
+
         super(model, manufacturer, size);
     }
 

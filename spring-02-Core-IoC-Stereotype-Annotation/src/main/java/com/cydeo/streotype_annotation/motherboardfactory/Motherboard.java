@@ -1,5 +1,10 @@
-package com.cydeo.loosely_coupled.motherboardfactory;
+package com.cydeo.streotype_annotation.motherboardfactory;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public abstract class Motherboard {
 
     private String model;
@@ -17,4 +22,5 @@ public abstract class Motherboard {
     }
 
     public abstract void loadProgram(String programName);
+
 }

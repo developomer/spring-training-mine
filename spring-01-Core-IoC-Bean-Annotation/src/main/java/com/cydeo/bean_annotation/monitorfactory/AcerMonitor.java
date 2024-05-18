@@ -1,6 +1,5 @@
-package com.cydeo.loosely_coupled.monitorfactory;
+package com.cydeo.bean_annotation.monitorfactory;
 
-import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 

@@ -1,5 +1,10 @@
-package com.cydeo.loosely_coupled.monitorfactory;
+package com.cydeo.streotype_annotation.monitorfactory;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public abstract class Monitor {
 
     private String model;

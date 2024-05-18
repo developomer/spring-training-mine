@@ -1,10 +1,11 @@
-package com.cydeo.loosely_coupled;
+package com.cydeo.streotype_annotation;
 
-import com.cydeo.loosely_coupled.casefactory.Case;
-import com.cydeo.loosely_coupled.monitorfactory.Monitor;
-import com.cydeo.loosely_coupled.motherboardfactory.Motherboard;
+import com.cydeo.streotype_annotation.casefactory.Case;
+import com.cydeo.streotype_annotation.monitorfactory.Monitor;
+import com.cydeo.streotype_annotation.motherboardfactory.Motherboard;
+import lombok.Getter;
 
-
+@Getter
 public class PC {
 
     private Case theCase;
@@ -23,6 +24,8 @@ public class PC {
     }
 
     private void drawLogo() {
+        // Fancy graphics
         monitor.drawPixelAt();
     }
+
 }
