@@ -1,12 +1,11 @@
-package com.cydeo.streotype_annotation;
+package com.cydeo;
 
-import com.cydeo.streotype_annotation.casefactory.Case;
-import com.cydeo.streotype_annotation.monitorfactory.Monitor;
-import com.cydeo.streotype_annotation.motherboardfactory.Motherboard;
+import com.cydeo.casefactory.Case;
+import com.cydeo.monitorfactory.Monitor;
+import com.cydeo.motherboardfactory.Motherboard;
 import lombok.Getter;
-import lombok.Setter;
+import org.springframework.beans.factory.annotation.Autowired;
 
-@Setter
 @Getter
 public class PC {
 
@@ -14,6 +13,7 @@ public class PC {
     private Monitor monitor;
     private Motherboard motherboard;
 
+    
     public PC(Case theCase, Monitor monitor, Motherboard motherboard) {
         this.theCase = theCase;
         this.monitor = monitor;
