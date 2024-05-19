@@ -5,14 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5eb57ff-b3c6-4dc3-81f9-4165011cbb2c" name="Changes" comment="IoC">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-02-Core-IoC-Stereotype-Annotation/src/main/java/com/cydeo/streotype_annotation/ComputerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-02-Core-IoC-Stereotype-Annotation/src/main/java/com/cydeo/streotype_annotation/ComputerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-02-Core-IoC-Stereotype-Annotation/src/main/java/com/cydeo/streotype_annotation/PC.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-02-Core-IoC-Stereotype-Annotation/src/main/java/com/cydeo/streotype_annotation/PC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-02-Core-IoC-Stereotype-Annotation/src/main/java/com/cydeo/streotype_annotation/config/PcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-02-Core-IoC-Stereotype-Annotation/src/main/java/com/cydeo/streotype_annotation/config/PcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-04-Autowiring/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-04-Autowiring/src/main/java/com/cydeo/streotype_annotation/ComputerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-04-Autowiring/src/main/java/com/cydeo/streotype_annotation/PC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-04-Autowiring/src/main/java/com/cydeo/streotype_annotation/casefactory/Case.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-04-Autowiring/src/main/java/com/cydeo/streotype_annotation/casefactory/DellCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-04-Autowiring/src/main/java/com/cydeo/streotype_annotation/casefactory/Dimensions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-04-Autowiring/src/main/java/com/cydeo/streotype_annotation/config/PcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-04-Autowiring/src/main/java/com/cydeo/streotype_annotation/monitorfactory/Monitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-04-Autowiring/src/main/java/com/cydeo/streotype_annotation/monitorfactory/SonyMonitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-04-Autowiring/src/main/java/com/cydeo/streotype_annotation/motherboardfactory/AsusMotherboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-04-Autowiring/src/main/java/com/cydeo/streotype_annotation/motherboardfactory/Motherboard.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,12 +31,12 @@
     &quot;assignee&quot;: &quot;developomer&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/developomer/spring-training-mine.git&quot;,
-    &quot;accountId&quot;: &quot;69d27a81-190e-4eb5-8a0d-b4af2c30fb12&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/developomer/spring-training-mine",
+    "accountId": "69d27a81-190e-4eb5-8a0d-b4af2c30fb12"
   }
-}</component>
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -44,36 +47,38 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ComputerTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.cydeo.streotype_annotation.ComputerTest.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.spring-01-Core-IoC-Bean-Annotation [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.spring-training-mine [clean].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/omert/IdeaProjects/spring-training/spring-training-mine/spring-01-Core-IoC-Bean-Annotation&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.4581152&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ComputerTest.executor": "Run",
+    "Application.com.cydeo.streotype_annotation.ComputerTest.executor": "Run",
+    "Maven.spring-01-Core-IoC-Bean-Annotation [clean].executor": "Run",
+    "Maven.spring-training-mine [clean].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/omert/IdeaProjects/spring-training-mine/sp/spring-04-Autowiring",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Global Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.4581152",
+    "settings.editor.selected.configurable": "settings.sync",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\omert\IdeaProjects\spring-training-mine\sp\spring-04-Autowiring" />
       <recent name="C:\Users\omert\IdeaProjects\spring-training\spring-training-mine\spring-01-Core-IoC-Bean-Annotation" />
       <recent name="C:\Users\omert\IdeaProjects\spring-training\spring-training-mine" />
       <recent name="C:\Users\omert\IdeaProjects\spring-training\spring-training-mine\.idea" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\omert\IdeaProjects\spring-training-mine\sp\spring-04-Autowiring" />
       <recent name="C:\Users\omert\IdeaProjects\spring-training\spring-training-mine\.idea" />
       <recent name="C:\Users\omert\IdeaProjects\spring-training\spring-training-mine" />
     </key>
@@ -153,6 +158,7 @@
       <workItem from="1716024369583" duration="6695000" />
       <workItem from="1716034797686" duration="264000" />
       <workItem from="1716035525227" duration="1313000" />
+      <workItem from="1716101232985" duration="107000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
