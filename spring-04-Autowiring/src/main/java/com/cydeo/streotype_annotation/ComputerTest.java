@@ -11,6 +11,7 @@ public class ComputerTest {
 
         PC myPc = container.getBean(PC.class);
 
-        System.out.println(myPc.getTheCase().getDimensions().getDepth());
+        System.out.println(myPc.getTheCase().getDimensions().getHeight());
+
     }
 }
