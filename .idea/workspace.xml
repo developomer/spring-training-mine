@@ -7,7 +7,8 @@
     <list default="true" id="c5eb57ff-b3c6-4dc3-81f9-4165011cbb2c" name="Changes" comment="Autowiring">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-04-Autowiring/src/main/java/com/cydeo/streotype_annotation/ComputerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-04-Autowiring/src/main/java/com/cydeo/streotype_annotation/ComputerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-04-Autowiring/src/main/java/com/cydeo/streotype_annotation/PC.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-04-Autowiring/src/main/java/com/cydeo/streotype_annotation/PC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-04-Autowiring/src/main/java/com/cydeo/streotype_annotation/casefactory/Dimensions.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-04-Autowiring/src/main/java/com/cydeo/streotype_annotation/casefactory/Dimensions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-04-Autowiring/src/main/java/com/cydeo/streotype_annotation/config/PcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-04-Autowiring/src/main/java/com/cydeo/streotype_annotation/config/PcConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +168,9 @@
       <workItem from="1716035525227" duration="1313000" />
       <workItem from="1716101232985" duration="107000" />
       <workItem from="1716101375128" duration="2903000" />
-      <workItem from="1716107839632" duration="334000" />
+      <workItem from="1716107839632" duration="6393000" />
+      <workItem from="1716140791481" duration="1648000" />
+      <workItem from="1716189225648" duration="560000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -233,7 +236,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716101454377</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Autowiring">
+      <option name="closed" value="true" />
+      <created>1716108419945</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1716108419945</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
