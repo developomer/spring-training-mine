@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5eb57ff-b3c6-4dc3-81f9-4165011cbb2c" name="Changes" comment="Abstraction">
-      <change afterPath="$PROJECT_DIR$/spring-05-Core-Abstraction/src/main/java/com/cydeo/service/CommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-05-Core-Abstraction/src/main/java/com/cydeo/CommentApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-05-Core-Abstraction/src/main/java/com/cydeo/config/CommentConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-05-Core-Abstraction/src/main/java/com/cydeo/proxy/EmailCommentNotificationProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-05-Core-Abstraction/src/main/java/com/cydeo/proxy/EmailCommentNotificationProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-05-Core-Abstraction/src/main/java/com/cydeo/repository/DBCommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-05-Core-Abstraction/src/main/java/com/cydeo/repository/DBCommentRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +179,8 @@
       <workItem from="1716101375128" duration="2903000" />
       <workItem from="1716107839632" duration="6393000" />
       <workItem from="1716140791481" duration="1648000" />
-      <workItem from="1716189225648" duration="4396000" />
+      <workItem from="1716189225648" duration="4938000" />
+      <workItem from="1716209420288" duration="2255000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -265,7 +270,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716203033709</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Abstraction">
+      <option name="closed" value="true" />
+      <created>1716203827793</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1716203827793</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
