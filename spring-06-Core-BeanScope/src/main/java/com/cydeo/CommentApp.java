@@ -5,7 +5,6 @@ import com.cydeo.model.Comment;
 import com.cydeo.service.CommentService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class CommentApp {
 
@@ -17,9 +16,13 @@ public class CommentApp {
 
         ApplicationContext context = new AnnotationConfigApplicationContext(CommentConfig.class);
 
-        CommentService commentService = context.getBean(CommentService.class);
-        commentService.publishComment(comment);
+        CommentService cs1 = context.getBean(CommentService.class);
+        CommentService cs2 = context.getBean(CommentService.class);
 
+        System.out.println(cs1);
+        System.out.println(cs2);
+
+        System.out.println(cs1==cs2);
 
     }
 
