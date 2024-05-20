@@ -5,15 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5eb57ff-b3c6-4dc3-81f9-4165011cbb2c" name="Changes" comment="Autowiring">
+      <change afterPath="$PROJECT_DIR$/spring-05-Core-Abstraction/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-05-Core-Abstraction/src/main/java/com/cydeo/model/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-05-Core-Abstraction/src/main/java/com/cydeo/proxy/CommentNotificationProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-05-Core-Abstraction/src/main/java/com/cydeo/proxy/EmailCommentNotificationProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-05-Core-Abstraction/src/main/java/com/cydeo/repository/CommentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-05-Core-Abstraction/src/main/java/com/cydeo/repository/DBCommentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-04-Autowiring/src/main/java/com/cydeo/streotype_annotation/ComputerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-04-Autowiring/src/main/java/com/cydeo/streotype_annotation/ComputerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-04-Autowiring/src/main/java/com/cydeo/streotype_annotation/casefactory/Dimensions.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-04-Autowiring/src/main/java/com/cydeo/streotype_annotation/casefactory/Dimensions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-04-Autowiring/src/main/java/com/cydeo/streotype_annotation/config/PcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-04-Autowiring/src/main/java/com/cydeo/streotype_annotation/config/PcConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -170,7 +184,7 @@
       <workItem from="1716101375128" duration="2903000" />
       <workItem from="1716107839632" duration="6393000" />
       <workItem from="1716140791481" duration="1648000" />
-      <workItem from="1716189225648" duration="560000" />
+      <workItem from="1716189225648" duration="4050000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -244,7 +258,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716108419945</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Autowiring">
+      <option name="closed" value="true" />
+      <created>1716189983276</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1716189983276</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
