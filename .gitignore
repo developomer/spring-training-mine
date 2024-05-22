@@ -1,0 +1,4 @@
+# Project exclude paths
+/spring-04-Autowiring/target/
+/spring-05-Core-Abstraction/target/
+/spring-06-Core-BeanScope/target/

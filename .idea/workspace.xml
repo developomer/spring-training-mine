@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c5eb57ff-b3c6-4dc3-81f9-4165011cbb2c" name="Changes" comment="Abstraction">
+      <change afterPath="$PROJECT_DIR$/spring-05-Core-Abstraction/src/main/java/com/cydeo/proxy/PushNotificationProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-06-Core-BeanScope/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-06-Core-BeanScope/src/main/java/com/cydeo/CommentApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-06-Core-BeanScope/src/main/java/com/cydeo/config/CommentConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-06-Core-BeanScope/src/main/java/com/cydeo/cydeo/CommentApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-06-Core-BeanScope/src/main/java/com/cydeo/model/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-06-Core-BeanScope/src/main/java/com/cydeo/proxy/CommentNotificationProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-06-Core-BeanScope/src/main/java/com/cydeo/proxy/EmailCommentNotificationProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-06-Core-BeanScope/src/main/java/com/cydeo/proxy/PushNotificationProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-06-Core-BeanScope/src/main/java/com/cydeo/repository/CommentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-06-Core-BeanScope/src/main/java/com/cydeo/repository/DBCommentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-06-Core-BeanScope/src/main/java/com/cydeo/service/CommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-05-Core-Abstraction/src/main/java/com/cydeo/CommentApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-05-Core-Abstraction/src/main/java/com/cydeo/CommentApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-05-Core-Abstraction/src/main/java/com/cydeo/proxy/CommentNotificationProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-05-Core-Abstraction/src/main/java/com/cydeo/proxy/CommentNotificationProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-05-Core-Abstraction/src/main/java/com/cydeo/proxy/EmailCommentNotificationProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-05-Core-Abstraction/src/main/java/com/cydeo/proxy/EmailCommentNotificationProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-05-Core-Abstraction/src/main/java/com/cydeo/repository/CommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-05-Core-Abstraction/src/main/java/com/cydeo/repository/CommentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-05-Core-Abstraction/src/main/java/com/cydeo/repository/DBCommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-05-Core-Abstraction/src/main/java/com/cydeo/repository/DBCommentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-05-Core-Abstraction/src/main/java/com/cydeo/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-05-Core-Abstraction/src/main/java/com/cydeo/service/CommentService.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;developomer&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/developomer/spring-training-mine&quot;,
+    &quot;accountId&quot;: &quot;69d27a81-190e-4eb5-8a0d-b4af2c30fb12&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2gUDw03AWZlDfkcsexSd1KMhaku" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CommentApp (1).executor": "Run",
+    "Application.CommentApp.executor": "Run",
+    "Application.ComputerTest.executor": "Run",
+    "Application.com.cydeo.streotype_annotation.ComputerTest (1).executor": "Run",
+    "Application.com.cydeo.streotype_annotation.ComputerTest.executor": "Run",
+    "Maven.spring-01-Core-IoC-Bean-Annotation [clean].executor": "Run",
+    "Maven.spring-training-mine [clean].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/omert/IdeaProjects/spring-training-mine/sp/spring-06-Core-BeanScope/src/main/java/com/cydeo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.4581152",
+    "settings.editor.selected.configurable": "settings.sync",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\omert\IdeaProjects\spring-training-mine\sp\spring-06-Core-BeanScope\src\main\java\com\cydeo" />
+      <recent name="C:\Users\omert\IdeaProjects\spring-training-mine\sp\spring-06-Core-BeanScope\src\main\java" />
+      <recent name="C:\Users\omert\IdeaProjects\spring-training-mine\sp\spring-04-Autowiring" />
+      <recent name="C:\Users\omert\IdeaProjects\spring-training\spring-training-mine\spring-01-Core-IoC-Bean-Annotation" />
+      <recent name="C:\Users\omert\IdeaProjects\spring-training\spring-training-mine" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\omert\IdeaProjects\spring-training-mine\sp\spring-04-Autowiring" />
+      <recent name="C:\Users\omert\IdeaProjects\spring-training\spring-training-mine\.idea" />
+      <recent name="C:\Users\omert\IdeaProjects\spring-training\spring-training-mine" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.CommentApp (1)">
+    <configuration name="CommentApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.CommentApp" />
+      <module name="spring-06-Core-BeanScope" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommentApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.CommentApp" />
+      <module name="spring-05-Core-Abstraction" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComputerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.bean_annotation.ComputerTest" />
+      <module name="spring-01-Core-IoC-Bean-Annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.bean_annotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.cydeo.streotype_annotation.ComputerTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.streotype_annotation.ComputerTest" />
+      <module name="spring-04-Autowiring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.streotype_annotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.cydeo.streotype_annotation.ComputerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.streotype_annotation.ComputerTest" />
+      <module name="spring-02-Core-IoC-Stereotype-Annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.streotype_annotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="spring-01-Core-IoC-Bean-Annotation" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="spring-01-Core-IoC-Bean-Annotation" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CommentApp (1)" />
+        <item itemvalue="Application.CommentApp" />
+        <item itemvalue="Application.com.cydeo.streotype_annotation.ComputerTest (1)" />
+        <item itemvalue="Application.com.cydeo.streotype_annotation.ComputerTest" />
+        <item itemvalue="Application.ComputerTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c5eb57ff-b3c6-4dc3-81f9-4165011cbb2c" name="Changes" comment="" />
+      <created>1715743496940</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715743496940</updated>
+      <workItem from="1715743497988" duration="1821000" />
+      <workItem from="1715754586617" duration="394000" />
+      <workItem from="1715774127365" duration="9220000" />
+      <workItem from="1715790879452" duration="620000" />
+      <workItem from="1716015813809" duration="3636000" />
+      <workItem from="1716021380886" duration="1428000" />
+      <workItem from="1716022842232" duration="350000" />
+      <workItem from="1716023207047" duration="708000" />
+      <workItem from="1716023925944" duration="433000" />
+      <workItem from="1716024369583" duration="6695000" />
+      <workItem from="1716034797686" duration="264000" />
+      <workItem from="1716035525227" duration="1313000" />
+      <workItem from="1716101232985" duration="107000" />
+      <workItem from="1716101375128" duration="2903000" />
+      <workItem from="1716107839632" duration="6393000" />
+      <workItem from="1716140791481" duration="1648000" />
+      <workItem from="1716189225648" duration="4938000" />
+      <workItem from="1716209420288" duration="4213000" />
+      <workItem from="1716217306311" duration="134000" />
+      <workItem from="1716217519990" duration="533000" />
+      <workItem from="1716221405654" duration="2522000" />
+    </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1715743692972</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715743692972</updated>
+    </task>
+    <task id="LOCAL-00002" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1716021459713</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716021459713</updated>
+    </task>
+    <task id="LOCAL-00003" summary="new comments to come">
+      <option name="closed" value="true" />
+      <created>1716022719884</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716022719884</updated>
+    </task>
+    <task id="LOCAL-00004" summary="new comments to come">
+      <option name="closed" value="true" />
+      <created>1716022944091</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716022944091</updated>
+    </task>
+    <task id="LOCAL-00005" summary="new comments to come">
+      <option name="closed" value="true" />
+      <created>1716022997537</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716022997537</updated>
+    </task>
+    <task id="LOCAL-00006" summary="pom">
+      <option name="closed" value="true" />
+      <created>1716023274213</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1716023274213</updated>
+    </task>
+    <task id="LOCAL-00007" summary="IoC">
+      <option name="closed" value="true" />
+      <created>1716030937528</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1716030937528</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Autowiring">
+      <option name="closed" value="true" />
+      <created>1716101454377</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1716101454377</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Autowiring">
+      <option name="closed" value="true" />
+      <created>1716108419945</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1716108419945</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Autowiring">
+      <option name="closed" value="true" />
+      <created>1716189983276</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1716189983276</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Abstraction">
+      <option name="closed" value="true" />
+      <created>1716203033709</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1716203033709</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Abstraction">
+      <option name="closed" value="true" />
+      <created>1716203827793</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1716203827793</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Abstraction">
+      <option name="closed" value="true" />
+      <created>1716211947354</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1716211947354</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="new comments to come" />
+    <MESSAGE value="pom" />
+    <MESSAGE value="IoC" />
+    <MESSAGE value="Autowiring" />
+    <MESSAGE value="Abstraction" />
+    <option name="LAST_COMMIT_MESSAGE" value="Abstraction" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-06-Core-BeanScope/src/main/java/com/cydeo/config/CommentConfig.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
