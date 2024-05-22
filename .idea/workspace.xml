@@ -4,29 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5eb57ff-b3c6-4dc3-81f9-4165011cbb2c" name="Changes" comment="Abstraction">
-      <change afterPath="$PROJECT_DIR$/spring-05-Core-Abstraction/src/main/java/com/cydeo/proxy/PushNotificationProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-06-Core-BeanScope/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-06-Core-BeanScope/src/main/java/com/cydeo/CommentApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-06-Core-BeanScope/src/main/java/com/cydeo/config/CommentConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-06-Core-BeanScope/src/main/java/com/cydeo/cydeo/CommentApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-06-Core-BeanScope/src/main/java/com/cydeo/model/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-06-Core-BeanScope/src/main/java/com/cydeo/proxy/CommentNotificationProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-06-Core-BeanScope/src/main/java/com/cydeo/proxy/EmailCommentNotificationProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-06-Core-BeanScope/src/main/java/com/cydeo/proxy/PushNotificationProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-06-Core-BeanScope/src/main/java/com/cydeo/repository/CommentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-06-Core-BeanScope/src/main/java/com/cydeo/repository/DBCommentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-06-Core-BeanScope/src/main/java/com/cydeo/service/CommentService.java" afterDir="false" />
+    <list default="true" id="c5eb57ff-b3c6-4dc3-81f9-4165011cbb2c" name="Changes" comment="Spring Boot Intro Started">
+      <change afterPath="$PROJECT_DIR$/spring-07-SpringBoot-Demo/src/main/java/org/cydeo/config/AppConfigData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-07-SpringBoot-Demo/src/main/java/org/cydeo/model/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-07-SpringBoot-Demo/src/main/java/org/cydeo/proxy/CommentNotificationProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-07-SpringBoot-Demo/src/main/java/org/cydeo/proxy/EmailCommentNotificationProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-07-SpringBoot-Demo/src/main/java/org/cydeo/proxy/PushNotificationProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-07-SpringBoot-Demo/src/main/java/org/cydeo/repository/CommentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-07-SpringBoot-Demo/src/main/java/org/cydeo/repository/DBCommentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-07-SpringBoot-Demo/src/main/java/org/cydeo/service/CommentService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-05-Core-Abstraction/src/main/java/com/cydeo/CommentApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-05-Core-Abstraction/src/main/java/com/cydeo/CommentApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-05-Core-Abstraction/src/main/java/com/cydeo/proxy/CommentNotificationProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-05-Core-Abstraction/src/main/java/com/cydeo/proxy/CommentNotificationProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-05-Core-Abstraction/src/main/java/com/cydeo/proxy/EmailCommentNotificationProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-05-Core-Abstraction/src/main/java/com/cydeo/proxy/EmailCommentNotificationProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-05-Core-Abstraction/src/main/java/com/cydeo/repository/CommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-05-Core-Abstraction/src/main/java/com/cydeo/repository/CommentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-05-Core-Abstraction/src/main/java/com/cydeo/repository/DBCommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-05-Core-Abstraction/src/main/java/com/cydeo/repository/DBCommentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-05-Core-Abstraction/src/main/java/com/cydeo/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-05-Core-Abstraction/src/main/java/com/cydeo/service/CommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-06-Core-BeanScope/src/main/java/com/cydeo/cydeo/CommentApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-07-SpringBoot-Demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-07-SpringBoot-Demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-07-SpringBoot-Demo/src/main/java/org/cydeo/CydeoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-07-SpringBoot-Demo/src/main/java/org/cydeo/CydeoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-07-SpringBoot-Demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-07-SpringBoot-Demo/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +37,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -63,42 +58,48 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2gUDw03AWZlDfkcsexSd1KMhaku" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.CommentApp (1).executor": "Run",
-    "Application.CommentApp.executor": "Run",
-    "Application.ComputerTest.executor": "Run",
-    "Application.com.cydeo.streotype_annotation.ComputerTest (1).executor": "Run",
-    "Application.com.cydeo.streotype_annotation.ComputerTest.executor": "Run",
-    "Maven.spring-01-Core-IoC-Bean-Annotation [clean].executor": "Run",
-    "Maven.spring-training-mine [clean].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/omert/IdeaProjects/spring-training-mine/sp/spring-06-Core-BeanScope/src/main/java/com/cydeo",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.4581152",
-    "settings.editor.selected.configurable": "settings.sync",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CommentApp (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.CommentApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ComputerTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.cydeo.streotype_annotation.ComputerTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.cydeo.streotype_annotation.ComputerTest.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.spring-01-Core-IoC-Bean-Annotation [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.spring-training-mine [clean].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.CydeoApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/omert/IdeaProjects/spring-training-mine/sp/spring-07-SpringBoot-Demo/src/main/java/org/cydeo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.4581152&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\omert\IdeaProjects\spring-training-mine\sp\spring-07-SpringBoot-Demo\src\main\java\org\cydeo" />
       <recent name="C:\Users\omert\IdeaProjects\spring-training-mine\sp\spring-06-Core-BeanScope\src\main\java\com\cydeo" />
       <recent name="C:\Users\omert\IdeaProjects\spring-training-mine\sp\spring-06-Core-BeanScope\src\main\java" />
       <recent name="C:\Users\omert\IdeaProjects\spring-training-mine\sp\spring-04-Autowiring" />
       <recent name="C:\Users\omert\IdeaProjects\spring-training\spring-training-mine\spring-01-Core-IoC-Bean-Annotation" />
-      <recent name="C:\Users\omert\IdeaProjects\spring-training\spring-training-mine" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\omert\IdeaProjects\spring-training-mine\sp\spring-04-Autowiring" />
@@ -106,7 +107,7 @@
       <recent name="C:\Users\omert\IdeaProjects\spring-training\spring-training-mine" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CommentApp (1)">
+  <component name="RunManager" selected="Spring Boot.CydeoApplication">
     <configuration name="CommentApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cydeo.CommentApp" />
       <module name="spring-06-Core-BeanScope" />
@@ -185,6 +186,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CydeoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-07-SpringBoot-Demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.cydeo.CydeoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.CommentApp (1)" />
@@ -232,6 +240,11 @@
       <workItem from="1716217306311" duration="134000" />
       <workItem from="1716217519990" duration="533000" />
       <workItem from="1716221405654" duration="2522000" />
+      <workItem from="1716365879173" duration="2059000" />
+      <workItem from="1716371508176" duration="688000" />
+      <workItem from="1716390091488" duration="2068000" />
+      <workItem from="1716392982443" duration="1790000" />
+      <workItem from="1716394922887" duration="2218000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
