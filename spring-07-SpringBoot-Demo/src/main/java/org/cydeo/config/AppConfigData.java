@@ -2,11 +2,14 @@ package org.cydeo.config;
 
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Configuration;
+
 
 @Data
+@Configuration // or @Component
 public class AppConfigData {
 
-    @Value("${username}")
+    @Value("${spring.profiles.active}")
     private String userName;
     @Value("${password}")
     private String password;
