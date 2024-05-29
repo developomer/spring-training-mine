@@ -4,24 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5eb57ff-b3c6-4dc3-81f9-4165011cbb2c" name="Changes" comment="SpringMVC Introduction">
-      <change afterPath="$PROJECT_DIR$/spring-08-MVC-Controller/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-08-MVC-Controller/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-08-MVC-Controller/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-08-MVC-Controller/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-08-MVC-Controller/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-08-MVC-Controller/src/main/java/org/cydeo/CydeoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-08-MVC-Controller/src/main/java/org/cydeo/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-08-MVC-Controller/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-08-MVC-Controller/src/test/java/org/cydeo/Spring08MvcControllerApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SpringIntroduction.iml" afterDir="false" />
+    <list default="true" id="c5eb57ff-b3c6-4dc3-81f9-4165011cbb2c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/spring-08-MVC-Controller/src/main/java/org/cydeo/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-08-MVC-Controller/src/main/resources/static/home2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-08-MVC-Controller/src/main/resources/static/student/welcome.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-07-SpringBoot-Demo/src/main/java/org/cydeo/config/AppConfigData.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-07-SpringBoot-Demo/src/main/java/org/cydeo/config/AppConfigData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-07-SpringBoot-Demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-07-SpringBoot-Demo/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-08-MVC-Controller/src/main/java/org/cydeo/CydeoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-08-MVC-Controller/src/main/java/org/cydeo/CydeoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-08-MVC-Controller/src/main/java/org/cydeo/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-08-MVC-Controller/src/main/java/org/cydeo/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-08-MVC-Controller/src/main/resources/static/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-08-MVC-Controller/src/main/resources/static/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -73,6 +64,9 @@
     &quot;Application.ComputerTest.executor&quot;: &quot;Run&quot;,
     &quot;Application.com.cydeo.streotype_annotation.ComputerTest (1).executor&quot;: &quot;Run&quot;,
     &quot;Application.com.cydeo.streotype_annotation.ComputerTest.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;HTTP Request.generated-requests | #2.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.home.html.executor&quot;: &quot;Run&quot;,
     &quot;Maven.spring-01-Core-IoC-Bean-Annotation [clean].executor&quot;: &quot;Run&quot;,
     &quot;Maven.spring-training-mine [clean].executor&quot;: &quot;Run&quot;,
     &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
@@ -140,31 +134,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.cydeo.streotype_annotation.ComputerTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.streotype_annotation.ComputerTest" />
-      <module name="spring-04-Autowiring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cydeo.streotype_annotation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="generated-requests | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" requestIdentifier="#2" runType="Run single request">
+      <method v="2" />
     </configuration>
-    <configuration name="com.cydeo.streotype_annotation.ComputerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.streotype_annotation.ComputerTest" />
-      <module name="spring-02-Core-IoC-Stereotype-Annotation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cydeo.streotype_annotation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="home.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/SpringIntroduction/spring-08-MVC-Controller/src/main/resources/static/home.html" useBuiltInWebServerPort="true">
+      <method v="2" />
     </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="spring-01-Core-IoC-Bean-Annotation" />
@@ -209,10 +183,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.CydeoApplication (1)" />
+        <item itemvalue="JavaScript Debug.home.html" />
+        <item itemvalue="HTTP Request.generated-requests | #2" />
         <item itemvalue="Application.CommentApp (1)" />
         <item itemvalue="Application.CommentApp" />
-        <item itemvalue="Application.com.cydeo.streotype_annotation.ComputerTest (1)" />
-        <item itemvalue="Application.com.cydeo.streotype_annotation.ComputerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -269,7 +243,8 @@
       <workItem from="1716711174853" duration="1229000" />
       <workItem from="1716834675903" duration="106000" />
       <workItem from="1716956756180" duration="161000" />
-      <workItem from="1716968128152" duration="1349000" />
+      <workItem from="1716968128152" duration="5217000" />
+      <workItem from="1716985028615" duration="1077000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -391,7 +366,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716406741507</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="MVC Controller">
+      <option name="closed" value="true" />
+      <created>1716971305246</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1716971305246</updated>
+    </task>
+    <task id="LOCAL-00017" summary="MVC Introduction">
+      <option name="closed" value="true" />
+      <created>1716971331296</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1716971331296</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -418,7 +409,10 @@
     <MESSAGE value="Abstraction" />
     <MESSAGE value="Spring Boot Intro Started" />
     <MESSAGE value="Spring Boot Started" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring Boot Started" />
+    <MESSAGE value="SpringMVC Introduction" />
+    <MESSAGE value="MVC Controller" />
+    <MESSAGE value="MVC Introduction" />
+    <option name="LAST_COMMIT_MESSAGE" value="MVC Introduction" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

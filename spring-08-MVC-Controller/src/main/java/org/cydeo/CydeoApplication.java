@@ -3,8 +3,8 @@ package org.cydeo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.aop.AopAutoConfiguration;
-
-@SpringBootApplication(exclude = {AopAutoConfiguration.class})
+@SpringBootApplication
+// @SpringBootApplication(exclude = {AopAutoConfiguration.class})
 public class CydeoApplication {
 
     public static void main(String[] args) {
