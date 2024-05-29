@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration // or @Component
 public class AppConfigData {
 
-    @Value("${spring.profiles.active}")
+    @Value("${username}")
     private String userName;
     @Value("${password}")
     private String password;
