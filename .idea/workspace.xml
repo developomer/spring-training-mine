@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5eb57ff-b3c6-4dc3-81f9-4165011cbb2c" name="Changes" comment="MVC Model">
+      <change afterPath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/java/org/cydeo/model/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/java/org/cydeo/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/java/org/cydeo/controller/StudentController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/resources/templates/student/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/resources/templates/student/welcome.html" afterDir="false" />
@@ -251,7 +252,7 @@
       <workItem from="1716985028615" duration="2676000" />
       <workItem from="1716996302623" duration="4336000" />
       <workItem from="1717051632755" duration="4000" />
-      <workItem from="1717052476301" duration="966000" />
+      <workItem from="1717052476301" duration="1647000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -405,7 +406,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716999441787</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="MVC Model">
+      <option name="closed" value="true" />
+      <created>1717054382568</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1717054382568</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
