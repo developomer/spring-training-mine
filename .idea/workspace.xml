@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5eb57ff-b3c6-4dc3-81f9-4165011cbb2c" name="Changes" comment="MVC Model MentorListTask">
-      <change afterPath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/java/org/cydeo/controller/CarController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/resources/templates/car/car-info.html" afterDir="false" />
+    <list default="true" id="c5eb57ff-b3c6-4dc3-81f9-4165011cbb2c" name="Changes" comment="MVC Model Query Parameters">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/java/org/cydeo/controller/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/java/org/cydeo/controller/CarController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/resources/templates/car/car-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/resources/templates/car/car-info.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -272,7 +272,7 @@
       <workItem from="1717051632755" duration="4000" />
       <workItem from="1717052476301" duration="5613000" />
       <workItem from="1717064248826" duration="902000" />
-      <workItem from="1717069106893" duration="3007000" />
+      <workItem from="1717069106893" duration="4290000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -450,7 +450,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717058267917</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="MVC Model Query Parameters">
+      <option name="closed" value="true" />
+      <created>1717074466072</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1717074466072</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -483,7 +491,8 @@
     <MESSAGE value="MVC @Controller and @RequestMapping" />
     <MESSAGE value="MVC Model" />
     <MESSAGE value="MVC Model MentorListTask" />
-    <option name="LAST_COMMIT_MESSAGE" value="MVC Model MentorListTask" />
+    <MESSAGE value="MVC Model Query Parameters" />
+    <option name="LAST_COMMIT_MESSAGE" value="MVC Model Query Parameters" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
