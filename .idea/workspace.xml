@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5eb57ff-b3c6-4dc3-81f9-4165011cbb2c" name="Changes" comment="Thymeleaf">
-      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/templates/student/welcome.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModelTask/src/main/resources/templates/mentors.html" beforeDir="false" afterPath="$PROJECT_DIR$/ModelTask/src/main/resources/templates/mentors.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/java/org/cydeo/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/java/org/cydeo/controller/StudentController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/templates/student/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/templates/student/register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +79,7 @@
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/omert/IdeaProjects/spring-training-mine/sp/spring-10-Thymeleaf/src/main/resources/templates/student",
+    "last_opened_file_path": "C:/Users/omert/IdeaProjects/spring-training-mine/sp/spring-10-Thymeleaf/src/main/resources/static",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -98,11 +95,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\omert\IdeaProjects\spring-training-mine\sp\spring-10-Thymeleaf\src\main\resources\static" />
       <recent name="C:\Users\omert\IdeaProjects\spring-training-mine\sp\spring-10-Thymeleaf\src\main\resources\templates\student" />
       <recent name="C:\Users\omert\IdeaProjects\spring-training-mine" />
       <recent name="C:\Users\omert\IdeaProjects\spring-training-mine\sp\spring-07-SpringBoot-Demo\src\main\java\org\cydeo" />
       <recent name="C:\Users\omert\IdeaProjects\spring-training-mine\sp\spring-06-Core-BeanScope\src\main\java\com\cydeo" />
-      <recent name="C:\Users\omert\IdeaProjects\spring-training-mine\sp\spring-06-Core-BeanScope\src\main\java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\omert\IdeaProjects\spring-training-mine\sp\spring-04-Autowiring" />
@@ -119,7 +116,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ModelTaskApplication">
+  <component name="RunManager" selected="Spring Boot.ThymeleafApplication">
     <configuration name="CommentApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cydeo.CommentApp" />
       <module name="spring-06-Core-BeanScope" />
@@ -264,7 +261,7 @@
       <workItem from="1717064248826" duration="902000" />
       <workItem from="1717069106893" duration="5066000" />
       <workItem from="1717087362809" duration="2219000" />
-      <workItem from="1717124726566" duration="8429000" />
+      <workItem from="1717124726566" duration="11170000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -474,7 +471,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717127744912</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Thymeleaf">
+      <option name="closed" value="true" />
+      <created>1717157968465</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1717157968465</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
