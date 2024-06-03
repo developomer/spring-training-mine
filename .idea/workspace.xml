@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5eb57ff-b3c6-4dc3-81f9-4165011cbb2c" name="Changes" comment="Thymeleaf">
-      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/java/org/cydeo/model/Mentor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/templates/student/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/templates/student/register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +18,8 @@
       <list>
         <option value="Interface" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -278,7 +276,7 @@
       <workItem from="1717251513471" duration="46000" />
       <workItem from="1717339083542" duration="1758000" />
       <workItem from="1717347114099" duration="1331000" />
-      <workItem from="1717401382379" duration="1676000" />
+      <workItem from="1717401382379" duration="3375000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -512,7 +510,23 @@
       <option name="project" value="LOCAL" />
       <updated>1717162832638</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Thymeleaf">
+      <option name="closed" value="true" />
+      <created>1717403421943</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1717403421943</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Thymeleaf">
+      <option name="closed" value="true" />
+      <created>1717403460579</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1717403460579</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
