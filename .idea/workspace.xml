@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5eb57ff-b3c6-4dc3-81f9-4165011cbb2c" name="Changes" comment="Thymeleaf">
-      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/templates/fragments/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/messages.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/java/org/cydeo/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/java/org/cydeo/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/templates/student/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/templates/student/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/templates/student/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/templates/student/welcome.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +91,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.4581152",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "settings.sync",
+    "settings.editor.selected.configurable": "preferences.fileTypes",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -193,6 +192,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.CommentApp" />
+      <item itemvalue="Application.CommentApp (1)" />
+      <item itemvalue="HTTP Request.generated-requests | #2" />
+      <item itemvalue="JavaScript Debug.home.html" />
+      <item itemvalue="Spring Boot.CydeoApplication" />
+      <item itemvalue="Spring Boot.ThymeleafApplication" />
+      <item itemvalue="Spring Boot.ModelTaskApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ModelTaskApplication" />
@@ -264,7 +272,13 @@
       <workItem from="1717064248826" duration="902000" />
       <workItem from="1717069106893" duration="5066000" />
       <workItem from="1717087362809" duration="2219000" />
-      <workItem from="1717124726566" duration="12413000" />
+      <workItem from="1717124726566" duration="13859000" />
+      <workItem from="1717166846092" duration="1242000" />
+      <workItem from="1717240470777" duration="1266000" />
+      <workItem from="1717251513471" duration="46000" />
+      <workItem from="1717339083542" duration="1758000" />
+      <workItem from="1717347114099" duration="1331000" />
+      <workItem from="1717401382379" duration="1676000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -490,7 +504,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717161521777</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Thymeleaf">
+      <option name="closed" value="true" />
+      <created>1717162832638</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1717162832638</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
